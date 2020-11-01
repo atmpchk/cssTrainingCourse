@@ -1,0 +1,144 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "PingFang TC", "SF Pro Text" !important;
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 94px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #000;
+  padding-top: 47px;
+  padding-bottom: 17px;
+}
+
+.profile-pic {
+  display: block;
+  margin: 48px 0;
+}
+
+.item {
+  margin-bottom: 72px;
+}
+
+.item-header {
+  font-size: 32px;
+  line-height: 43px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 16px;
+}
+
+.item-header .en {
+  color: #A00404;
+  font-size: 24px;
+  margin-left: 16px;
+  vertical-align: top;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.item-content {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.item-content li {
+  margin-bottom: 24px;
+}
+
+.full-background {
+  background: #415165;
+  padding-top: 24px;
+  padding-bottom: 20px;
+  margin-bottom: 72px;
+}
+
+.last {
+  margin-bottom: 0;
+}
+
+.full-background .item {
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+.full-background .skills {
+  width: 996px;
+}
+
+.full-background .item-header {
+  text-align: center;
+  border-bottom: 1px solid #ffffff;
+  margin-bottom: 40px;
+  line-height: 45px;
+}
+
+.full-background .item-header .en {
+  color: #ffffff;
+}
+
+.full-background .skills .item-content {
+  font-weight: 300;
+  margin: 0 auto;
+  width: 217px;
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+}
+
+.full-background .skills .item-content li {
+  margin-bottom: 20px;
+}
+
+.experience .item-content {
+  padding-left: 24px;
+  border-left: 1px solid #96A9C4;
+  margin-left: 24px;
+}
+
+.experience .logo {
+  display: block;
+  margin: 8px 0;
+}
+
+.experience .description {
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 642px;
+}
+
+
+.full-background .contact .item-content {
+  font-weight: 300;
+  text-align: center;
+}
+
+.full-background .contact .item-content li {
+  margin-bottom: 16px;
+}
+
+.full-background .contact li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.full-background .contact li a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  line-height: 0;
+  font-size: 0;
+}
+
+.social-media a + a {
+  margin-left: 24px;
+}
