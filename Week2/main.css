@@ -36,7 +36,6 @@ img {
   background-repeat: no-repeat;
   height: 958px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -45,7 +44,9 @@ img {
   width: 304px;
 }
 
-.header .superscript {
+.header span {
+  display: block;
+  margin-top: 100px;
   font-size: 24px;
   line-height: 42px;
   font-weight: 500;
@@ -62,12 +63,11 @@ img {
   font-size: 24px;
   line-height: 36px;
   font-weight: 500;
-  margin: 0px auto 48px;
+  margin-bottom: 48px;
 }
 
 .header .social-links {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -86,10 +86,11 @@ img {
   margin: 0 auto 24px;
 }
 
-.about h3 {
+.about li {
   font-size: 24px;
   line-height: 42px;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 
 .about .school {
@@ -102,14 +103,11 @@ img {
   margin-bottom: 32px;
 }
 
-.about li {
-  font-size: 24px;
-  line-height: 42px;
-  font-weight: 500;
+.about .experience li {
   margin-bottom: 32px;
 }
 
-.about li:before {
+.about .experience li:before {
   content: '';
   display: inline-block;
   width: 22px;
@@ -118,6 +116,11 @@ img {
   margin-right: 16px;
   border-radius: 50%;
   vertical-align: middle;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
 }
 
 .brand {
@@ -177,8 +180,6 @@ img {
 }
 
 .featured-works {
-  width: 1200px;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -208,7 +209,7 @@ img {
   margin-bottom: 16px;
 }
 
-.footer p {
+.footer li {
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 16px;
