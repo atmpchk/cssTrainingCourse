@@ -1,0 +1,218 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Roboto", "PingFang TC", "SF Pro Text" !important;
+  font-style: italic !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-dark {
+  background: black;
+}
+
+.header {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week2/banner.png?raw=true");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 958px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .wrapper {
+  width: 304px;
+}
+
+.header span {
+  display: block;
+  margin-top: 70px;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 500;
+}
+
+.header h1 {
+  font-size: 80px;
+  line-height: 94px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.header .description {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-bottom: 48px;
+}
+
+.header .social-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  padding-top: 64px;
+  padding-bottom: 24px;
+}
+
+.about h2 {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 40px;
+}
+
+.about .avatar {
+  margin: 0 auto 24px;
+}
+
+.about li {
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.about .school {
+  line-height: 36px;
+}
+
+.about hr {
+  width: 384px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.about .experience li {
+  margin-bottom: 32px;
+}
+
+.about .experience li:before {
+  content: '';
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-color: #891818;
+  margin-right: 16px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.brand {
+  padding-top: 64px;
+  padding-bottom: 120px;
+}
+
+.brand h2 {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 16px;
+}
+
+.brand h3 {
+  font-size: 24px;
+  line-height: 42px;
+  margin-bottom: 32px;
+}
+
+.brand p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 68px;
+}
+
+.brand img {
+  margin-bottom: 40px;
+}
+
+.brand .img-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-wrapper .primary {
+  margin: 0 auto 40px;
+}
+
+.works {
+  padding: 64px 0;
+}
+
+.works h2 {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 24px;
+}
+
+.works p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 56px;
+}
+
+.featured-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.featured-works figure {
+  margin-bottom: 56px;
+}
+
+.featured-works img {
+  margin-bottom: 16px;
+}
+
+.featured-works figcaption {
+  font-size: 20px;
+  line-height: 42px;
+}
+
+.footer {
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+
+.footer h2 {
+  font-size: 64px;
+  line-height: 75px;
+  margin-bottom: 16px;
+}
+
+.footer li {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 16px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
